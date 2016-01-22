@@ -35,7 +35,7 @@ defmodule Discovery.Mixfile do
   defp deps do
     [
       {:consul, "~> 1.0"},
-      {:hash_ring_ex, github: "rafal-radziszewski/hash_ring_ex"},
+      {:hash_ring_ex, github: "rafal-radziszewski/hash-ring-ex"},
       {:inch_ex, only: :docs}
     ]
   end
