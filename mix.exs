@@ -34,7 +34,7 @@ defmodule Discovery.Mixfile do
 
   defp deps do
     [
-      {:consul, github: "rafal-radziszewski/consul-ex"},
+      {:consul, github: "amatalai/consul-ex"},
       {:hash_ring_ex, github: "appunite/hash-ring-ex"},
       {:inch_ex, only: :docs}
     ]
